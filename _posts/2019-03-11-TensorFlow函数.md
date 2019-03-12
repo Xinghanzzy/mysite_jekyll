@@ -62,3 +62,11 @@ def reduce_sum(input_tensor,
 """
 ```
 
+## tf.arg_max
+
+tf.argmax() 与 numpy.argmax() 方法的意思是一致的， 即：
+
+    axis = 0 时       返回每一列最大值的位置索引
+
+    axis = 1 时       返回每一行最大值的位置索引
+
