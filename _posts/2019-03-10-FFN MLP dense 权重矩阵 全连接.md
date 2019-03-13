@@ -66,7 +66,11 @@ FNN FFN？傻傻分不清楚
 
 ![一维全连接](https://ws1.sinaimg.cn/large/4ac7f217ly1g1001xjzuqj20b00bb74v.jpg)
 
+​										  一维全连接
+
 ![二维全连接层 ](https://ws1.sinaimg.cn/large/4ac7f217ly1g10023khdej20dz0dpwfd.jpg)
+
+​										二维全连接层
 
 ```python
 dense(
