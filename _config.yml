@@ -112,3 +112,5 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
+# add at 2019-3-13 09:44:13
+gems: [jekyll-paginate]
