@@ -67,6 +67,18 @@ def reduce_sum(input_tensor,
 tf.argmax() 与 numpy.argmax() 方法的意思是一致的， 即：
 
     axis = 0 时       返回每一列最大值的位置索引
-
+    
     axis = 1 时       返回每一行最大值的位置索引
 
+##tf.nn.embedding_lookup
+
+tf.nn.embedding_lookup()就是根据input_ids中的id，寻找embeddings中的第id行。比如input_ids=[1,3,5]，则找出embeddings中第1，3，5行，组成一个tensor返回。
+
+embedding_lookup不是简单的查表，id对应的向量是可以训练的，训练参数个数应该是 category num*embedding size，也就是说lookup是一种全连接层。
+
+我的理解是表中数是参与训练的
+
+> 作者：大师鲁 
+> 来源：CSDN 
+> 原文：https://blog.csdn.net/laolu1573/article/details/77170407 
+> 版权声明：本文为博主原创文章，转载请附上博文链接！
