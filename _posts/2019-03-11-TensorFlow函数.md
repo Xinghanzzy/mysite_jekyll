@@ -44,6 +44,8 @@ tf.reduce_sum(keys, axis=-1)
 # input按照第n维加和 
 # 感觉就是那一维度没了
 # [N, T, num_units] -> [N, T]
+
+# 如果没有第二个参数，就是对矩阵中所有元素求和
 def reduce_sum(input_tensor,
                axis=None,
                keepdims=None,
