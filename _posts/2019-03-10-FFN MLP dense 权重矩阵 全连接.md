@@ -28,7 +28,9 @@ tags:								#标签
 
 
 
-# feedforward
+> 一句话：FNN=MLP=n*dense=n*relu(Wx+b) 
+
+# FeedForward
 
 FNN FFN？傻傻分不清楚 
 
