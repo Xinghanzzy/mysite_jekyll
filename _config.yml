@@ -3,13 +3,13 @@ title: XH Blog
 SEOTitle: 星汉的博客 | XH Blog
 header-img: img/post-bg-desk.jpg
 email: hldnpqzzy@sina.com
-description: "Every failure is leading towards success."
+description: "Thinking will not overcome fear but action will."
 keyword: "NLP,机器翻译,深度学习"
 url: "https://xinghanzzy.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Xinghanzzy/xinghanzzy.github.io.git" # you code repository
 
-# Sidebar settings
+# Sidebar settings 侧边栏
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/wangye.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
@@ -18,7 +18,7 @@ sidebar-avatar: /img/wangye.jpg      # use absolute URL, seeing it's used in bot
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+weibo_username:     1254617623
 # zhihu_username:     qiubaiying
 github_username:    Xinghanzzy
 # facebook_username:  baiying.qiu.7
@@ -78,7 +78,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -112,5 +112,4 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
-# add at 2019-3-13 09:44:13
-gems: [jekyll-paginate]
+
